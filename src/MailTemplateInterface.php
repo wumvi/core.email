@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace Wumvi\Classes\MailDelivery;
+namespace Core\Email\MailDelivery;
 
 /**
  * Интерфейс модели письма
@@ -31,7 +31,7 @@ interface MailTemplateInterface
     /**
      *
      *
-     * @param {array} $list
+     * @param array $list
      */
     public function setVariables(array $list): void;
 
