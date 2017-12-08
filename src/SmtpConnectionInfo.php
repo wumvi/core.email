@@ -1,9 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Core\Email\MailDelivery;
-
-use Core\Model\Read;
+namespace Core\Email;
 
 /**
  * Модель для коннекта

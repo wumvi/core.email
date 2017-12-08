@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Core\Email\MailDelivery;
+namespace Core\Email;
 
 /**
  * Отправка письма пользователю
